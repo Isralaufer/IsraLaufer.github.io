@@ -11,14 +11,16 @@ body{
 .menu li{
     float: left;
 }
-.menu li a{
-    display: block;
-}
 li a {
-    padding: 15px;;
-    color: blueviolet;
-    border: 1px solid black
-    text-decoration
-
+    border: 1px solid black;
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+a.hover{
+    
+    text-align: center;
 
 }
