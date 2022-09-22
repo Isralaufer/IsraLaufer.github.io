@@ -1,18 +1,18 @@
 body{
-    background-color: aqua;
+    background-color: beige;
 }
 .menu{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: azure;
+    background-color: black;
     overflow: hidden;
 }
 .menu li{
     float: left;
 }
 li a {
-    border: 1px solid black;
+    border: 1px solid rgb(250, 249, 249);
     padding: 15px;
     color: white;
     display: block;
@@ -22,5 +22,10 @@ li a {
 a.hover{
     
     text-align: center;
-
+}
+h1 {
+    text-align: center;
+}
+:active {
+    color: blueviolet
 }
